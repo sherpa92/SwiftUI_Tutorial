@@ -19,6 +19,7 @@
 		988C4D1B29DAB9D500CC24EE /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C4D1A29DAB9D500CC24EE /* LandmarkRow.swift */; };
 		988C4D1F29DABD1E00CC24EE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C4D1E29DABD1E00CC24EE /* LandmarkList.swift */; };
 		988C4D2129DABF3D00CC24EE /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C4D2029DABF3D00CC24EE /* LandmarkDetail.swift */; };
+		988C4D2429DAF05500CC24EE /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C4D2329DAF05500CC24EE /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +33,10 @@
 		988C4D0D29DAB67100CC24EE /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		988C4D0F29DAB6D300CC24EE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		988C4D1329DAB86200CC24EE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		988C4D1A29DAB9D500CC24EE /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		988C4D1A29DAB9D500CC24EE /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/Views/Landmarks/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 		988C4D1E29DABD1E00CC24EE /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		988C4D2029DABF3D00CC24EE /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		988C4D2329DAF05500CC24EE /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +90,9 @@
 		988C4D1529DAB91500CC24EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				988C4D1A29DAB9D500CC24EE /* LandmarkRow.swift */,
 				988C4CFC29DA9C9C00CC24EE /* ContentView.swift */,
-				988C4D0B29DAA6B300CC24EE /* MapView.swift */,
-				988C4D0929DAA4A600CC24EE /* CircleImage.swift */,
-				988C4D1E29DABD1E00CC24EE /* LandmarkList.swift */,
-				988C4D2029DABF3D00CC24EE /* LandmarkDetail.swift */,
+				988C4D2529DAF11000CC24EE /* Landmarks */,
+				988C4D2629DAF11D00CC24EE /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +112,26 @@
 				988C4D0F29DAB6D300CC24EE /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		988C4D2529DAF11000CC24EE /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				988C4D1A29DAB9D500CC24EE /* LandmarkRow.swift */,
+				988C4D1E29DABD1E00CC24EE /* LandmarkList.swift */,
+				988C4D2029DABF3D00CC24EE /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		988C4D2629DAF11D00CC24EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				988C4D0B29DAA6B300CC24EE /* MapView.swift */,
+				988C4D0929DAA4A600CC24EE /* CircleImage.swift */,
+				988C4D2329DAF05500CC24EE /* FavoriteButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +208,7 @@
 				988C4CFD29DA9C9C00CC24EE /* ContentView.swift in Sources */,
 				988C4D0C29DAA6B300CC24EE /* MapView.swift in Sources */,
 				988C4CFB29DA9C9C00CC24EE /* LandmarksApp.swift in Sources */,
+				988C4D2429DAF05500CC24EE /* FavoriteButton.swift in Sources */,
 				988C4D1F29DABD1E00CC24EE /* LandmarkList.swift in Sources */,
 				988C4D2129DABF3D00CC24EE /* LandmarkDetail.swift in Sources */,
 				988C4D0A29DAA4A600CC24EE /* CircleImage.swift in Sources */,
